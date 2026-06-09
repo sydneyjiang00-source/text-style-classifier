@@ -51,7 +51,3 @@ The `run_tests()` function shows a fuller example: it builds source models from 
 - Implemented entirely with the Python standard library (`math`, `ast`) to demonstrate the mechanics of a naive-Bayes-style classifier without relying on packaged tools.
 - The rule-based `stem()` function is recursive and handles common English suffixes (`-ing`, `-ed`, `-ly`, `-tion`, etc.) plus a few irregular forms.
 - Saved models are read back with `ast.literal_eval`, which safely parses a Python literal rather than executing arbitrary code.
-
-## Background
-
-Originally developed as a final project for an introductory Python programming course at Boston University, then cleaned up and documented.
